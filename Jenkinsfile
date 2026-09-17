@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         APP_NAME = 'GradeBookApp'
-        APP_VERSION = '1.0.0'
+        APP_VERSION = '2.0.0'
     }
     stages {
         stage('Checkout') {
